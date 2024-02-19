@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JURISCONT - Bufete de Abogados</title>
+    <style>
+        /* Estilos globales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F8F4F0;
+            margin: 0;
+            padding: 0;
+            color: #444;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #5C3D31;
+            color: #FFF;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #FFF;
+            font-size: 1.2rem;
+        }
+
+        /* Contenido principal */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FFF;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #5C3D31;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Secciones */
+        section {
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .contact-form {
+            width: 45%;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form h3 {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .contact-form textarea {
+            height: 100px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #5C3D31;
+            color: #FFF;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact-image {
+            width: 50%;
+            margin-left: 20px;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #5C3D31;
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JURISCONT - Bufete de Abogados</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#about">Acerca de Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#team">Nuestro Equipo</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Acerca de Nosotros</h2>
+            <p>JURISCONT es un bufete de abogados comprometido con proporcionar servicios legales de alta calidad. Nuestro equipo está formado por profesionales con experiencia en diversas áreas del derecho.</p>
+        </section>
+
+        <section id="services">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Asesoría Legal</li>
+                <li>Litigios</li>
+                <li>Contratos</li>
+                <li>Derecho Corporativo</li>
+                <li>Derecho Laboral</li>
+                <li>Derecho de Familia</li>
+                <!-- Agrega más servicios aquí -->
+            </ul>
+        </section>
+
+        <section id="team">
+            <h2>Nuestro Equipo</h2>
+            <p>Nuestro equipo está formado por abogados altamente calificados y comprometidos con la excelencia en el servicio. Conozca a nuestros principales abogados:</p>
+            <ul>
+                <li>Nombre Apellido - Especialidad</li>
+                <li>Nombre Apellido - Especialidad</li>
+                <li>Nombre Apellido - Especialidad</li>
+                <!-- Agrega más miembros del equipo aquí -->
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h3>Envíenos un mensaje</h3>
+                    <form>
+                        <input type="text" name="name" placeholder="Nombre" required><br>
+                        <input type="email" name="email" placeholder="Correo Electrónico" required><br>
+                        <textarea name="message" placeholder="Mensaje" required></textarea><br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+                <div class="contact-image">
+                    <img src="C:\Users\HP GOLD\Desktop\Pagina web JURISCONT\contactenos.jpeg" alt="Imagen de contacto">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 JURISCONT - Bufete de Abogados. Todos los derechos reservados.</p>
+    </footer>
+    <a class="whatsapp-button" href="https://wa.me/+593980606836?text=Hola,%20estoy%20interesado%20en%20obtener%20información%20sobre%20sus%20servicios." target="_blank">Enviar mensaje por WhatsApp</a>
+</body>
+</html>
+<style>
+    .whatsapp-button {
+        display: block;
+        width: 200px;
+        background-color: #25D366;
+        color: #FFF;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        margin: 20px auto;
+    }
+</style>
